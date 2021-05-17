@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="700.0" prefWidth="800.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.GameDisplay.PlayerInterface">
+   <children>
+      <ImageView fitHeight="194.0" fitWidth="444.0" layoutX="14.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Pokemon_Halloween.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="14.0" layoutY="69.0" prefHeight="384.0" prefWidth="770.0">
+         <children>
+            <TextArea fx:id="output" prefHeight="394.0" prefWidth="770.0" />
+         </children>
+      </VBox>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="47.0" prefWidth="206.0" text="Game_Info" textFill="#bf2525">
+         <font>
+            <Font name="Courier New" size="36.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

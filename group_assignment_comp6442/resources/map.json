@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Bed Room",
+    "NPCs": [
+      {}
+    ],
+    "description": ""
+  },
+  {
+    "name": "Living Room",
+    "NPCs": [],
+    "description": ""
+  },
+  {
+    "name": "Kitchen",
+    "NPCs": [],
+    "description": ""
+  },
+  {
+    "name": "Yard",
+    "NPCs": [],
+    "description": ""
+  },
+  {
+    "name": "Walk",
+    "NPCs": [],
+    "description": ""
+  },
+  {
+    "name": "Pokemon Center",
+    "NPCs": [],
+    "description": ""
+  }
+]
